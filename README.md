@@ -118,44 +118,44 @@
 ### 智源联邦学习客户端
 * 进入`baai-client/service/federated/config/preliminary_contest_helmet_federal`目录
   * 修改`preliminary_contest_helmet_federal.data`当中的数据路径
-  * 生成`yolov3`模型的`cfg`文件
-    > bash create_preliminary_contest_helmet_federal_model.sh 2
+  * 生成`yolov3`模型的`cfg`文件  
+  `bash create_preliminary_contest_helmet_federal_model.sh 2`
 * 进入`baai-client/config`
   * 修改`project_conf.py`当中的`host`和`port`
 * 进入`baai-client/service/federated/utils`目录
   * 配置参数，特别是`data_config`，`model_def`，`server_ip`，`server_port`，`client_ip`，`client_port`
 
 * 启动智源联邦学习客户端
-  * 进入`baai-client`，运行以下指令
-    > python main.py
+  * 进入`baai-client`，运行以下指令  
+  `python main.py`
 
 ### 国网电力联邦学习客户端
 * 进入`sgcc-client/service/federated/config/preliminary_contest_helmet_federal`目录
   * 修改`preliminary_contest_helmet_federal.data`当中的数据路径
-  * 生成`yolov3`模型的`cfg`文件
-    > bash create_preliminary_contest_helmet_federal_model.sh 2
+  * 生成`yolov3`模型的`cfg`文件  
+  `bash create_preliminary_contest_helmet_federal_model.sh 2`
 * 进入`sgcc-client/config`
   * 修改`project_conf.py`当中的`host`和`port`
 * 进入`sgcc-client/service/federated/utils`目录
   * 配置参数，特别是`data_config`，`model_def`，`server_ip`，`server_port`，`client_ip`，`client_port`
 
 * 启动国网电力联邦学习客户端
-  * 进入`sgcc-client`，运行以下指令
-    > python main.py
+  * 进入`sgcc-client`，运行以下指令  
+  `python main.py`
 
 ### 选手联邦学习服务端
 * 把下载好的[yolov3预训练模型](http://dorc-data.ks3-cn-beijing.ksyun.com/2015682aasdf154asdfe5d5aq961fa6eg/weights_yolov3_pre_model/weights.tar.gz)拷贝到`contestant-server/service/federated/weights`
 * 进入`contestant-server/service/federated/config/preliminary_contest_helmet_federal`目录
-  * 生成`yolov3`模型的`cfg`文件
-    > bash create_preliminary_contest_helmet_federal_model.sh 2
+  * 生成`yolov3`模型的`cfg`文件  
+  `bash create_preliminary_contest_helmet_federal_model.sh 2`
 * 进入`contestant-server/config`
   * 修改`project_conf.py`当中的`host`和`port`
 * 进入`contestant-server/service/federated/utils`目录
   * 配置参数，特别是`pretrained_weights`，`model_def`，`server_ip`，`server_port`，`client_ips`，`client_ports`
 
 * 启动选手联邦学习服务端
-  * 进入`contestant-server`，运行以下指令
-    > PYTHONPATH=your/project/path/contestant-server python service/federated/server.py
+  * 进入`contestant-server`，运行以下指令  
+    `PYTHONPATH=your/project/path/contestant-server python service/federated/server.py`
 
 ## 实验指标 
 * 正确率：P (Precision) = TP / (TP + FP)，所有预测出来的正例中有多少是真的正例
