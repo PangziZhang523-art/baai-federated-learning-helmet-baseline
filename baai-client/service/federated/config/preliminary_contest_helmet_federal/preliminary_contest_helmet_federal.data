@@ -1,0 +1,7 @@
+classes=2
+
+train=/data/ntxie/Data/SGCC/preliminary_contest_helmet_federal/annotations/train1.json
+valid=/data/ntxie/Data/SGCC/preliminary_contest_helmet_federal/annotations/val1.json
+test=/data/ntxie/Data/SGCC/preliminary_contest_helmet_federal/annotations/test.json
+detect=/data/ntxie/Data/SGCC/preliminary_contest_helmet_federal/annotations/test_image_info.json
+names=/data/ntxie/Data/SGCC/preliminary_contest_helmet_federal/annotations/train1.json

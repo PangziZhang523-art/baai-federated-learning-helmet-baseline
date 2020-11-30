@@ -1,0 +1,213 @@
+2020-11-27 20:02:19.726 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: call federated train size
+2020-11-27 20:02:19.727 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train_size 
+2020-11-27 20:02:19.732 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train_size 
+2020-11-27 20:02:19.805 | INFO     | __main__:call_federated_train_size:84 - before normalization: client_ratio_lst: [1503, 1504]
+2020-11-27 20:02:19.805 | INFO     | __main__:call_federated_train_size:87 - after normalization: client_ratio_lst: [0.49983372131692716, 0.5001662786830728]
+2020-11-27 20:02:19.805 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: call federated train size
+2020-11-27 20:02:19.805 | INFO     | service.federated.utils.utils:timer:46 - Step name: call federated train size; time cost: 0:00:00.079584
+
+2020-11-27 20:02:19.806 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: call federated train
+2020-11-27 20:02:19.806 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 1/25
+2020-11-27 20:02:20.192 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-27 20:02:20.401 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-27 20:04:33.941 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: call federated train size
+2020-11-27 20:04:33.942 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train_size 
+2020-11-27 20:04:33.948 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train_size 
+2020-11-27 20:04:34.012 | INFO     | __main__:call_federated_train_size:84 - before normalization: client_ratio_lst: [1503, 1504]
+2020-11-27 20:04:34.012 | INFO     | __main__:call_federated_train_size:87 - after normalization: client_ratio_lst: [0.49983372131692716, 0.5001662786830728]
+2020-11-27 20:04:34.012 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: call federated train size
+2020-11-27 20:04:34.012 | INFO     | service.federated.utils.utils:timer:46 - Step name: call federated train size; time cost: 0:00:00.071048
+
+2020-11-27 20:04:34.013 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: call federated train
+2020-11-27 20:04:34.013 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 1/25
+2020-11-27 20:04:34.394 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-27 20:04:34.602 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-27 20:56:18.867 | INFO     | __main__:call_federated_train:131 - epoch   1, average loss 14.854
+2020-11-27 20:56:18.868 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 1/25
+2020-11-27 20:56:18.868 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 1/25; time cost: 0:51:44.854995
+
+2020-11-27 20:56:18.868 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 2/25
+2020-11-27 20:56:19.162 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-27 20:56:19.354 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-27 21:48:21.648 | INFO     | __main__:call_federated_train:131 - epoch   2, average loss 7.872
+2020-11-27 21:48:21.649 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 2/25
+2020-11-27 21:48:21.649 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 2/25; time cost: 0:52:02.780845
+
+2020-11-27 21:48:21.650 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 3/25
+2020-11-27 21:48:21.933 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-27 21:48:22.130 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-27 22:40:33.316 | INFO     | __main__:call_federated_train:131 - epoch   3, average loss 6.124
+2020-11-27 22:40:33.317 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 3/25
+2020-11-27 22:40:33.317 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 3/25; time cost: 0:52:11.667357
+
+2020-11-27 22:40:33.318 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 4/25
+2020-11-27 22:40:33.666 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-27 22:40:33.891 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-27 23:32:51.081 | INFO     | __main__:call_federated_train:131 - epoch   4, average loss 5.070
+2020-11-27 23:32:51.082 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 4/25
+2020-11-27 23:32:51.082 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 4/25; time cost: 0:52:17.764294
+
+2020-11-27 23:32:51.082 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 5/25
+2020-11-27 23:32:51.389 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-27 23:32:51.593 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 00:25:18.501 | INFO     | __main__:call_federated_train:131 - epoch   5, average loss 4.364
+2020-11-28 00:25:18.502 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 5/25
+2020-11-28 00:25:18.502 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 5/25; time cost: 0:52:27.419321
+
+2020-11-28 00:25:18.502 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 6/25
+2020-11-28 00:25:18.831 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 00:25:19.060 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 01:17:01.452 | INFO     | __main__:call_federated_train:131 - epoch   6, average loss 3.860
+2020-11-28 01:17:01.454 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 6/25
+2020-11-28 01:17:01.454 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 6/25; time cost: 0:51:42.951659
+
+2020-11-28 01:17:01.455 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 7/25
+2020-11-28 01:17:01.772 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 01:17:01.973 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 02:08:33.341 | INFO     | __main__:call_federated_train:131 - epoch   7, average loss 3.520
+2020-11-28 02:08:33.342 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 7/25
+2020-11-28 02:08:33.343 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 7/25; time cost: 0:51:31.887722
+
+2020-11-28 02:08:33.343 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 8/25
+2020-11-28 02:08:33.677 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 02:08:33.903 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 03:01:08.286 | INFO     | __main__:call_federated_train:131 - epoch   8, average loss 3.200
+2020-11-28 03:01:08.287 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 8/25
+2020-11-28 03:01:08.288 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 8/25; time cost: 0:52:34.944432
+
+2020-11-28 03:01:08.288 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 9/25
+2020-11-28 03:01:08.638 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 03:01:08.868 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 03:53:07.498 | INFO     | __main__:call_federated_train:131 - epoch   9, average loss 2.934
+2020-11-28 03:53:07.500 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 9/25
+2020-11-28 03:53:07.500 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 9/25; time cost: 0:51:59.212022
+
+2020-11-28 03:53:07.501 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 10/25
+2020-11-28 03:53:07.859 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 03:53:08.090 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 04:45:39.300 | INFO     | __main__:call_federated_train:131 - epoch  10, average loss 2.671
+2020-11-28 04:45:39.302 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 10/25
+2020-11-28 04:45:39.302 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 10/25; time cost: 0:52:31.801268
+
+2020-11-28 04:45:39.302 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 11/25
+2020-11-28 04:45:39.649 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 04:45:39.875 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 05:37:40.002 | INFO     | __main__:call_federated_train:131 - epoch  11, average loss 2.508
+2020-11-28 05:37:40.003 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 11/25
+2020-11-28 05:37:40.003 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 11/25; time cost: 0:52:00.700636
+
+2020-11-28 05:37:40.003 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 12/25
+2020-11-28 05:37:40.316 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 05:37:40.540 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 06:29:47.372 | INFO     | __main__:call_federated_train:131 - epoch  12, average loss 2.342
+2020-11-28 06:29:47.374 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 12/25
+2020-11-28 06:29:47.374 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 12/25; time cost: 0:52:07.370194
+
+2020-11-28 06:29:47.374 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 13/25
+2020-11-28 06:29:47.715 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 06:29:47.948 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 07:22:13.473 | INFO     | __main__:call_federated_train:131 - epoch  13, average loss 2.205
+2020-11-28 07:22:13.474 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 13/25
+2020-11-28 07:22:13.475 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 13/25; time cost: 0:52:26.099977
+
+2020-11-28 07:22:13.475 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 14/25
+2020-11-28 07:22:13.813 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 07:22:14.049 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 08:14:57.458 | INFO     | __main__:call_federated_train:131 - epoch  14, average loss 2.038
+2020-11-28 08:14:57.460 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 14/25
+2020-11-28 08:14:57.460 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 14/25; time cost: 0:52:43.984751
+
+2020-11-28 08:14:57.460 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 15/25
+2020-11-28 08:14:57.790 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 08:14:58.022 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 09:07:07.358 | INFO     | __main__:call_federated_train:131 - epoch  15, average loss 1.919
+2020-11-28 09:07:07.359 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 15/25
+2020-11-28 09:07:07.360 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 15/25; time cost: 0:52:09.899156
+
+2020-11-28 09:07:07.360 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 16/25
+2020-11-28 09:07:07.642 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 09:07:07.839 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 09:59:11.726 | INFO     | __main__:call_federated_train:131 - epoch  16, average loss 1.811
+2020-11-28 09:59:11.728 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 16/25
+2020-11-28 09:59:11.728 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 16/25; time cost: 0:52:04.367790
+
+2020-11-28 09:59:11.728 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 17/25
+2020-11-28 09:59:12.030 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 09:59:12.225 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 10:51:19.160 | INFO     | __main__:call_federated_train:131 - epoch  17, average loss 1.712
+2020-11-28 10:51:19.162 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 17/25
+2020-11-28 10:51:19.162 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 17/25; time cost: 0:52:07.433888
+
+2020-11-28 10:51:19.163 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 18/25
+2020-11-28 10:51:19.485 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 10:51:19.709 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 11:42:34.241 | INFO     | __main__:call_federated_train:131 - epoch  18, average loss 1.631
+2020-11-28 11:42:34.242 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 18/25
+2020-11-28 11:42:34.243 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 18/25; time cost: 0:51:15.079769
+
+2020-11-28 11:42:34.243 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 19/25
+2020-11-28 11:42:34.532 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 11:42:34.729 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 12:34:12.812 | INFO     | __main__:call_federated_train:131 - epoch  19, average loss 1.538
+2020-11-28 12:34:12.816 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 19/25
+2020-11-28 12:34:12.816 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 19/25; time cost: 0:51:38.573240
+
+2020-11-28 12:34:12.817 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 20/25
+2020-11-28 12:34:13.118 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 12:34:13.320 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 13:26:32.575 | INFO     | __main__:call_federated_train:131 - epoch  20, average loss 1.486
+2020-11-28 13:26:32.577 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 20/25
+2020-11-28 13:26:32.577 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 20/25; time cost: 0:52:19.760305
+
+2020-11-28 13:26:32.578 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 21/25
+2020-11-28 13:26:32.918 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 13:26:33.132 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 14:18:48.962 | INFO     | __main__:call_federated_train:131 - epoch  21, average loss 1.418
+2020-11-28 14:18:48.967 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 21/25
+2020-11-28 14:18:48.967 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 21/25; time cost: 0:52:16.389495
+
+2020-11-28 14:18:48.968 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 22/25
+2020-11-28 14:18:49.286 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 14:18:49.510 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 15:10:32.927 | INFO     | __main__:call_federated_train:131 - epoch  22, average loss 1.376
+2020-11-28 15:10:32.929 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 22/25
+2020-11-28 15:10:32.929 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 22/25; time cost: 0:51:43.961248
+
+2020-11-28 15:10:32.930 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 23/25
+2020-11-28 15:10:33.268 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 15:10:33.494 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 16:02:48.632 | INFO     | __main__:call_federated_train:131 - epoch  23, average loss 1.301
+2020-11-28 16:02:48.634 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 23/25
+2020-11-28 16:02:48.634 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 23/25; time cost: 0:52:15.704175
+
+2020-11-28 16:02:48.634 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 24/25
+2020-11-28 16:02:48.980 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 16:02:49.210 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 16:55:18.917 | INFO     | __main__:call_federated_train:131 - epoch  24, average loss 1.252
+2020-11-28 16:55:18.918 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 24/25
+2020-11-28 16:55:18.919 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 24/25; time cost: 0:52:30.284028
+
+2020-11-28 16:55:18.919 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: train for epoch 25/25
+2020-11-28 16:55:19.216 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_train 
+2020-11-28 16:55:19.413 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_train 
+2020-11-28 17:46:49.632 | INFO     | __main__:call_federated_train:131 - epoch  25, average loss 1.205
+2020-11-28 17:46:49.637 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: train for epoch 25/25
+2020-11-28 17:46:49.637 | INFO     | service.federated.utils.utils:timer:46 - Step name: train for epoch 25/25; time cost: 0:51:30.717967
+
+2020-11-28 17:46:49.637 | INFO     | __main__:call_federated_train:140 - best train loss: 1.2053183027087373
+2020-11-28 17:46:49.637 | INFO     | __main__:call_federated_train:141 - best epoch: 25
+2020-11-28 17:46:49.916 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: call federated train
+2020-11-28 17:46:49.917 | INFO     | service.federated.utils.utils:timer:46 - Step name: call federated train; time cost: 21:42:15.903778
+
+2020-11-28 17:46:50.263 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: call federated test
+2020-11-28 17:46:50.282 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_test 
+2020-11-28 17:46:50.511 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_test 
+2020-11-28 17:49:17.144 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: call federated test
+2020-11-28 17:49:17.144 | INFO     | service.federated.utils.utils:timer:46 - Step name: call federated test; time cost: 0:02:26.880940
+
+2020-11-28 17:49:17.422 | INFO     | service.federated.utils.utils:timer:33 - Start executing step: call federated detect
+2020-11-28 17:49:17.422 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5012/federated_detect 
+2020-11-28 17:49:17.616 | INFO     | utils.common_utils:print_msg_func:10 -  ======> request url: http://127.0.0.1:5013/federated_detect 
+2020-11-28 17:52:10.611 | INFO     | service.federated.utils.utils:timer:37 - Finished executing step: call federated detect
+2020-11-28 17:52:10.612 | INFO     | service.federated.utils.utils:timer:46 - Step name: call federated detect; time cost: 0:02:53.189614
+
